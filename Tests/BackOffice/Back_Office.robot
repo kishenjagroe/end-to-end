@@ -9,7 +9,6 @@ Test Teardown  End Web Test
 # robot -d results tests/BackOffice/Back_Office.robot
 
 *** Test Cases ***
-*** Test Cases ***
 Should be able to access "Landing" page
     [Documentation]  This is test 1
     [Tags]  test1
