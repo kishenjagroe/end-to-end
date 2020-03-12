@@ -1,8 +1,8 @@
 *** Settings ***
 Documentation  Talk about what this suite of tests does
-Resource  ../../Data/InputData.robot
-Resource  ../../Resources/BackOffice/BackOfficeApp.robot
-Resource  ../../Resources/Common/CommonWeb.robot
+Resource  ../../../Data/InputData.robot
+Resource  ../../../Resources/RobotFrameWorkTutorial/BackOffice/BackOfficeApp.robot
+Resource  ../../../Resources/Common/CommonWeb.robot
 Test Setup  Begin Web Test
 Test Teardown  End Web Test
 
